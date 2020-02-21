@@ -1,2 +1,6 @@
 
 [package]
+name = "wasm-nn"
+authors = ["0xArty <0xArty@proton.me>"]
+version = "0.1.0"
+edition = "2021"
