@@ -10,3 +10,5 @@ wasm-nn is a deep learning framework for WebAssembly.
 documentation = "https://docs.rs/wasm-nn"
 repository = "https://github.com/0xArty/wasm-nn"
 readme = "README.md"
+license = "MIT"
+keywords = ["machine-learning", "neural-network", "deep-learning", "wasm"]
