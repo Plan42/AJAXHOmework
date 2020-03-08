@@ -18,3 +18,4 @@ keywords = ["machine-learning", "neural-network", "deep-learning", "wasm"]
 crate-type = ["cdylib", "rlib"]
 
 [features]
+default = ["console_error_panic_hook"]
