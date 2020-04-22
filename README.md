@@ -9,3 +9,5 @@ wasm-nn is a deep learning framework for WebAssembly (Wasm) that allows you to t
 - Python bindings for easy integration with PyTorch
 - Supports a wide range of layer types and optimization algorithms
 - Easy to use and well-documented API
+
+## Installation
