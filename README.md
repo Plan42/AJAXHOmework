@@ -11,3 +11,5 @@ wasm-nn is a deep learning framework for WebAssembly (Wasm) that allows you to t
 - Easy to use and well-documented API
 
 ## Installation
+
+To install wasm-nn, you need to have [Rust](https://www.rust-lang.org/) and [wasm-pack](https://rustwasm.github.io/wasm-pack/) installed on your system. Then, you can install wasm-nn with the following command:
