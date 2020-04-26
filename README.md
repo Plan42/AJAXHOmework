@@ -16,3 +16,6 @@ To install wasm-nn, you need to have [Rust](https://www.rust-lang.org/) and [was
 
 ```bash
 wasm-pack install wasm-nn
+```
+
+# Usage
