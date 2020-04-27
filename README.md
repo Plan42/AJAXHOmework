@@ -22,3 +22,5 @@ wasm-pack install wasm-nn
 
 ```
 [dependencies]
+wasm-nn = "0.1.0"
+```
