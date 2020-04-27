@@ -19,3 +19,6 @@ wasm-pack install wasm-nn
 ```
 
 # Usage
+
+```
+[dependencies]
