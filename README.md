@@ -24,3 +24,5 @@ wasm-pack install wasm-nn
 [dependencies]
 wasm-nn = "0.1.0"
 ```
+
+Then, you can use it in your Rust code like this:
