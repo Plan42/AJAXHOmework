@@ -29,3 +29,5 @@ Then, you can use it in your Rust code like this:
 
 ```
 extern crate wasm_nn;
+
+use wasm_nn::tensor::Tensor;
