@@ -31,3 +31,5 @@ Then, you can use it in your Rust code like this:
 extern crate wasm_nn;
 
 use wasm_nn::tensor::Tensor;
+use wasm_nn::optim::SGD;
+use wasm_nn::nn::{Module, Linear};
