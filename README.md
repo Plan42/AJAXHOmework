@@ -33,3 +33,6 @@ extern crate wasm_nn;
 use wasm_nn::tensor::Tensor;
 use wasm_nn::optim::SGD;
 use wasm_nn::nn::{Module, Linear};
+
+fn main() {
+    let mut model = Linear::new(2, 3);
