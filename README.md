@@ -40,3 +40,6 @@ fn main() {
 
     // Train the model on some data...
 }
+```
+
+To use wasm-nn with Python, you can install the Python package with pip:
