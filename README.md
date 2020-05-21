@@ -37,3 +37,6 @@ use wasm_nn::nn::{Module, Linear};
 fn main() {
     let mut model = Linear::new(2, 3);
     let optimizer = SGD::default();
+
+    // Train the model on some data...
+}
