@@ -43,3 +43,8 @@ fn main() {
 ```
 
 To use wasm-nn with Python, you can install the Python package with pip:
+
+```python
+pip install wasm-nn
+```
+Then, you can use it in your Python code like this:
