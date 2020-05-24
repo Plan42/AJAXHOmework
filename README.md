@@ -54,3 +54,6 @@ import wasm_nn
 
 model = wasm_nn.Linear(2, 3)
 optimizer = wasm_nn.SGD()
+
+# Train the model on some data...
+```
