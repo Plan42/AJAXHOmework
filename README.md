@@ -51,3 +51,6 @@ Then, you can use it in your Python code like this:
 
 ```python
 import wasm_nn
+
+model = wasm_nn.Linear(2, 3)
+optimizer = wasm_nn.SGD()
