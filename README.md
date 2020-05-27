@@ -57,3 +57,5 @@ optimizer = wasm_nn.SGD()
 
 # Train the model on some data...
 ```
+
+For more details on how to use wasm-nn, see the API documentation.
