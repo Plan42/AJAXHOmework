@@ -59,3 +59,5 @@ optimizer = wasm_nn.SGD()
 ```
 
 For more details on how to use wasm-nn, see the API documentation.
+
+# Contributing
