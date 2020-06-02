@@ -64,3 +64,4 @@ For more details on how to use wasm-nn, see the API documentation.
 We welcome contributions to wasm-nn! If you'd like to contribute, please read our contribution guidelines and open a pull request.
 
 # License
+wasm-nn is licensed under the MIT License.
