@@ -65,3 +65,6 @@ We welcome contributions to wasm-nn! If you'd like to contribute, please read ou
 
 # License
 wasm-nn is licensed under the MIT License.
+
+# Acknowledgements
+wasm-nn is built on top of the WasmBindgen project, which makes it easy to interface between Rust and JavaScript. We are grateful to the WasmBindgen team and community for their efforts in making Wasm development a pleasure.
