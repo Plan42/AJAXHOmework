@@ -1,1 +1,1 @@
-/// A librar
+/// A library
