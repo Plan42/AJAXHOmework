@@ -1,1 +1,1 @@
-/// A library for do
+/// A library for doing
