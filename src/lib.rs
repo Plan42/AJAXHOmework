@@ -1,1 +1,1 @@
-/// A library for doing stuff w
+/// A library for doing stuff with
