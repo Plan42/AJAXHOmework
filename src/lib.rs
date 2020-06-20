@@ -1,1 +1,1 @@
-/// A library for doing stuff with nu
+/// A library for doing stuff with numb
