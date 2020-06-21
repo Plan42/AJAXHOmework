@@ -1,1 +1,1 @@
-/// A library for doing stuff with numbe
+/// A library for doing stuff with number
