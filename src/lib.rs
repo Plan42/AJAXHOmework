@@ -1,1 +1,1 @@
-/// A library for doing stuff with numbers
+/// A library for doing stuff with numbers.
