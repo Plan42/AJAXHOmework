@@ -1,3 +1,3 @@
 /// A library for doing stuff with numbers.
 mod utils;
-mod t
+mod ten
