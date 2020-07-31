@@ -3,4 +3,4 @@ mod utils;
 mod tensor;
 mod optim;
 
-use was
+use wasm
