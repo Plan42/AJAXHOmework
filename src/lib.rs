@@ -3,4 +3,4 @@ mod utils;
 mod tensor;
 mod optim;
 
-use wasm_bindgen::prelud
+use wasm_bindgen::prelude
