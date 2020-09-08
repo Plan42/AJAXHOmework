@@ -5,4 +5,4 @@ mod optim;
 
 use wasm_bindgen::prelude::*;
 
-// When the `wee_alloc` fea
+// When the `wee_alloc` feat
