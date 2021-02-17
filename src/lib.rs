@@ -9,4 +9,4 @@ use wasm_bindgen::prelude::*;
 // allocator.
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]
-static ALLOC: wee_alloc::WeeAl
+static ALLOC: wee_alloc::WeeAllo
