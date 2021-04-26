@@ -15,3 +15,4 @@ static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 extern "C" {
     fn alert(s: &str);
 }
+
