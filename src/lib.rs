@@ -16,4 +16,4 @@ extern "C" {
     fn alert(s: &str);
 }
 
-#[wasm
+#[wasm_b
