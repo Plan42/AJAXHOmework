@@ -17,4 +17,4 @@ extern "C" {
 }
 
 #[wasm_bindgen]
-pub fn gre
+pub fn greet
