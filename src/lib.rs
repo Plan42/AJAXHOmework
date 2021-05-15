@@ -18,3 +18,4 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet() {
+    al
