@@ -18,4 +18,4 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, {{pro
+    alert("Hello, {{proj
