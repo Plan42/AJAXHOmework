@@ -8,3 +8,5 @@ struct AdamOptimizer {
     epsilon: f32,
     iteration: usize,
     m: Vec<f32>,
+    v: Vec<f32>,
+}
