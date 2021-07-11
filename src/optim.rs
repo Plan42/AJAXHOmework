@@ -6,3 +6,5 @@ struct AdamOptimizer {
     beta1: f32,
     beta2: f32,
     epsilon: f32,
+    iteration: usize,
+    m: Vec<f32>,
