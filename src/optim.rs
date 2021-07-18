@@ -17,3 +17,4 @@ impl AdamOptimizer {
             learning_rate,
             beta1,
             beta2,
+            epsilon,
