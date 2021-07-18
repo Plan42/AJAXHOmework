@@ -13,3 +13,5 @@ struct AdamOptimizer {
 
 impl AdamOptimizer {
     fn new(learning_rate: f32, beta1: f32, beta2: f32, epsilon: f32, params: &[f32]) -> AdamOptimizer {
+        AdamOptimizer {
+            learning_rate,
