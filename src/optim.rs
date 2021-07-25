@@ -22,3 +22,4 @@ impl AdamOptimizer {
             m: Vec::from(params),
             v: Vec::from(params),
         }
+    }
