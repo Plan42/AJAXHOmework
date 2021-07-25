@@ -18,3 +18,5 @@ impl AdamOptimizer {
             beta1,
             beta2,
             epsilon,
+            iteration: 1,
+            m: Vec::from(params),
