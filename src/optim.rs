@@ -23,3 +23,6 @@ impl AdamOptimizer {
             v: Vec::from(params),
         }
     }
+
+    fn update(&mut self, params: &mut [f32], grads: &[f32]) {
+        let size = params.len();
