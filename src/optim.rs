@@ -26,3 +26,5 @@ impl AdamOptimizer {
 
     fn update(&mut self, params: &mut [f32], grads: &[f32]) {
         let size = params.len();
+        for i in 0..size {
+            self.m[i] = self.beta1 * self.m[i] + (1.0 - self.beta1) * grads[i];
