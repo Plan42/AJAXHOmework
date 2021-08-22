@@ -32,3 +32,4 @@ impl AdamOptimizer {
             let m_hat = self.m[i] / (1.0 - self.beta1.powf(self.iteration as f32));
             let v_hat = self.v[i] / (1.0 - self.beta2.powf(self.iteration as f32));
             params[i] -= self.learning_rate * m_hat / (v_hat.sqrt() + self.epsilon);
+        }
