@@ -40,3 +40,5 @@ impl AdamOptimizer {
 struct SGDOptimizer {
     learning_rate: f32,
 }
+
+impl SGDOptimizer {
