@@ -42,3 +42,5 @@ struct SGDOptimizer {
 }
 
 impl SGDOptimizer {
+    fn new(learning_rate: f32) -> SGDOptimizer {
+        SGDOptimizer { learning_rate }
