@@ -48,3 +48,5 @@ impl SGDOptimizer {
 
     fn update(&self, params: &mut [f32], grads: &[f32]) {
         let size = params.len();
+        for i in 0..size {
+            params[i] -= self.learning_rate * grads[i];
