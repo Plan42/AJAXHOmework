@@ -50,3 +50,5 @@ impl SGDOptimizer {
         let size = params.len();
         for i in 0..size {
             params[i] -= self.learning_rate * grads[i];
+        }
+    }
