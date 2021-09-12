@@ -55,3 +55,7 @@ impl SGDOptimizer {
 }
 
 #[cfg(test)]
+mod tests {
+
+    #[test]
+    fn test_adam_optimizer() {
