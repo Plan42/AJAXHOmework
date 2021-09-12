@@ -53,3 +53,5 @@ impl SGDOptimizer {
         }
     }
 }
+
+#[cfg(test)]
