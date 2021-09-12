@@ -52,3 +52,4 @@ impl SGDOptimizer {
             params[i] -= self.learning_rate * grads[i];
         }
     }
+}
