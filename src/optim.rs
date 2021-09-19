@@ -60,3 +60,9 @@ mod tests {
     #[test]
     fn test_adam_optimizer() {
         use super::AdamOptimizer;
+        let mut params = [1.0, 2.0, 3.0];
+        let grads = [0.1, 0.2, 0.3];
+        let mut optimizer = AdamOptimizer::new(0.01, 0.9, 0.999, 1e-8, &params);
+        optimizer.update(&mut params, &grads);
+        assert_eq!(params, [0.9971209, 1.9959284, 2.9950132]);
+    }
