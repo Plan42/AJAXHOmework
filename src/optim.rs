@@ -66,3 +66,5 @@ mod tests {
         optimizer.update(&mut params, &grads);
         assert_eq!(params, [0.9971209, 1.9959284, 2.9950132]);
     }
+
+    #[test]
