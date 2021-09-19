@@ -59,3 +59,4 @@ mod tests {
 
     #[test]
     fn test_adam_optimizer() {
+        use super::AdamOptimizer;
