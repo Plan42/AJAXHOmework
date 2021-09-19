@@ -68,3 +68,6 @@ mod tests {
     }
 
     #[test]
+    fn test_sgd_optimizer() {
+        use super::SGDOptimizer;
+        let mut params = [1.0, 2.0, 3.0];
