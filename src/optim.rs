@@ -71,3 +71,5 @@ mod tests {
     fn test_sgd_optimizer() {
         use super::SGDOptimizer;
         let mut params = [1.0, 2.0, 3.0];
+        let grads = [0.1, 0.2, 0.3];
+        let optimizer = SGDOptimizer::new(0.01);
