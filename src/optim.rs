@@ -75,3 +75,5 @@ mod tests {
         let optimizer = SGDOptimizer::new(0.01);
         optimizer.update(&mut params, &grads);
         assert_eq!(params, [0.999, 1.998, 2.997]);
+    }
+}
