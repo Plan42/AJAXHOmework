@@ -8,3 +8,6 @@ struct Tensor {
     /// The size of each dimension of the tensor as a vector of unsigned integers.
     shape: Vec<usize>,
 }
+
+impl Tensor {
+    /// Creates a new tensor with the given `data` and `shape`.
