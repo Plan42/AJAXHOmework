@@ -5,3 +5,6 @@ use std::ops::{Add, Mul};
 struct Tensor {
     /// The values of the tensor as a vector of floating-point numbers.
     data: Vec<f32>,
+    /// The size of each dimension of the tensor as a vector of unsigned integers.
+    shape: Vec<usize>,
+}
