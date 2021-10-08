@@ -11,3 +11,4 @@ struct Tensor {
 
 impl Tensor {
     /// Creates a new tensor with the given `data` and `shape`.
+    fn new(data: Vec<f32>, shape: Vec<usize>) -> Tensor {
