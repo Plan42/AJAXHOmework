@@ -14,3 +14,7 @@ impl Tensor {
     fn new(data: Vec<f32>, shape: Vec<usize>) -> Tensor {
         Tensor { data, shape }
     }
+
+    /// Creates a new tensor with the given `shape` and all values initialized to 0.
+    fn from_shape(shape: Vec<usize>) -> Tensor {
+        let size = shape.iter().product();
