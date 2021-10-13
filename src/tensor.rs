@@ -22,3 +22,4 @@ impl Tensor {
             data: vec![0.0; size],
             shape,
         }
+    }
