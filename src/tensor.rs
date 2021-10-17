@@ -23,3 +23,5 @@ impl Tensor {
             shape,
         }
     }
+
+    /// Reshapes the tensor to have the given `new_shape`.
