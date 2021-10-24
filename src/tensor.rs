@@ -30,3 +30,5 @@ impl Tensor {
     ///
     /// Panics if the new shape has a different size than the original shape.
     fn reshape(&mut self, new_shape: Vec<usize>) {
+        let size: usize = self.shape.iter().product();
+        let new_size = new_shape.iter().product();
