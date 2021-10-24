@@ -25,3 +25,5 @@ impl Tensor {
     }
 
     /// Reshapes the tensor to have the given `new_shape`.
+    ///
+    /// # Panics
