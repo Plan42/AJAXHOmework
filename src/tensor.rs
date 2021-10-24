@@ -27,3 +27,6 @@ impl Tensor {
     /// Reshapes the tensor to have the given `new_shape`.
     ///
     /// # Panics
+    ///
+    /// Panics if the new shape has a different size than the original shape.
+    fn reshape(&mut self, new_shape: Vec<usize>) {
