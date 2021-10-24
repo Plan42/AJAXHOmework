@@ -32,3 +32,6 @@ impl Tensor {
     fn reshape(&mut self, new_shape: Vec<usize>) {
         let size: usize = self.shape.iter().product();
         let new_size = new_shape.iter().product();
+        if size != new_size {
+            panic!("Cannot reshape tensor of size {} to size {}", size, new_size);
+        }
