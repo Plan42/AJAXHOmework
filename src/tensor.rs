@@ -35,3 +35,5 @@ impl Tensor {
         if size != new_size {
             panic!("Cannot reshape tensor of size {} to size {}", size, new_size);
         }
+        self.shape = new_shape;
+    }
