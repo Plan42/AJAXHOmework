@@ -40,3 +40,5 @@ impl Tensor {
 
     /// Returns the size of the tensor, i.e. the total number of elements.
     fn size(&self) -> usize {
+        self.data.len()
+    }
