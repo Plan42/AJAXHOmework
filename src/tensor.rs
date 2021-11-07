@@ -42,3 +42,5 @@ impl Tensor {
     fn size(&self) -> usize {
         self.data.len()
     }
+
+    /// Returns a reference to the shape of the tensor.
