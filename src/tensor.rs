@@ -44,3 +44,6 @@ impl Tensor {
     }
 
     /// Returns a reference to the shape of the tensor.
+    fn shape(&self) -> &Vec<usize> {
+        &self.shape
+    }
