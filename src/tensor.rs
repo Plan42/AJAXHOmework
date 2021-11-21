@@ -51,3 +51,5 @@ impl Tensor {
     /// Returns the rank of the tensor, i.e. the number of dimensions.
     fn rank(&self) -> usize {
         self.shape.len()
+    }
+}
