@@ -53,3 +53,5 @@ impl Tensor {
         self.shape.len()
     }
 }
+
+impl Add for Tensor {
