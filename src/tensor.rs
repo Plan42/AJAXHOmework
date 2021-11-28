@@ -55,3 +55,4 @@ impl Tensor {
 }
 
 impl Add for Tensor {
+    type Output = Tensor;
