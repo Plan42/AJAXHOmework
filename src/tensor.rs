@@ -65,3 +65,4 @@ impl Add for Tensor {
     fn add(self, other: Tensor) -> Tensor {
         let size = self.size();
         if size != other.size() {
+            panic!("Cannot add tensors of different sizes ({} and {})", size, other.size());
