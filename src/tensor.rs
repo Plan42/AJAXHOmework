@@ -63,3 +63,5 @@ impl Add for Tensor {
     ///
     /// Panics if the two tensors have different sizes.
     fn add(self, other: Tensor) -> Tensor {
+        let size = self.size();
+        if size != other.size() {
