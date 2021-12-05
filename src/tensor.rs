@@ -60,3 +60,6 @@ impl Add for Tensor {
     /// Adds two tensors element-wise and returns the result.
     ///
     /// # Panics
+    ///
+    /// Panics if the two tensors have different sizes.
+    fn add(self, other: Tensor) -> Tensor {
