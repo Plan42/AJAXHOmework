@@ -58,3 +58,5 @@ impl Add for Tensor {
     type Output = Tensor;
 
     /// Adds two tensors element-wise and returns the result.
+    ///
+    /// # Panics
