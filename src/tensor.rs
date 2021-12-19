@@ -69,3 +69,4 @@ impl Add for Tensor {
         }
         let mut data = Vec::with_capacity(size);
         for i in 0..size {
+            data.push(self.data[i] + other.data[i]);
