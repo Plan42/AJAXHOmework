@@ -75,3 +75,5 @@ impl Add for Tensor {
             data,
             shape: self.shape.clone(),
         }
+    }
+}
