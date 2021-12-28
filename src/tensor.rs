@@ -82,3 +82,5 @@ impl Add for Tensor {
 ///
 /// # Panics
 ///
+/// Panics if the two tensors have different sizes.
+impl Mul<Tensor> for Tensor {
