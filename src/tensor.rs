@@ -80,3 +80,5 @@ impl Add for Tensor {
 
 /// Multiplies two tensors element-wise and returns the result.
 ///
+/// # Panics
+///
