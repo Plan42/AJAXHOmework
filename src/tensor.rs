@@ -84,3 +84,4 @@ impl Add for Tensor {
 ///
 /// Panics if the two tensors have different sizes.
 impl Mul<Tensor> for Tensor {
+    type Output = Tensor;
