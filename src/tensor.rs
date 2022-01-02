@@ -87,3 +87,5 @@ impl Mul<Tensor> for Tensor {
     type Output = Tensor;
 
     fn mul(self, other: Tensor) -> Tensor {
+        let size = self.size();
+        if size != other.size() {
