@@ -89,3 +89,5 @@ impl Mul<Tensor> for Tensor {
     fn mul(self, other: Tensor) -> Tensor {
         let size = self.size();
         if size != other.size() {
+            panic!("Cannot multiply tensors of different sizes ({} and {})", size, other.size());
+        }
