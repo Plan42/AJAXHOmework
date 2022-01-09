@@ -91,3 +91,5 @@ impl Mul<Tensor> for Tensor {
         if size != other.size() {
             panic!("Cannot multiply tensors of different sizes ({} and {})", size, other.size());
         }
+        let mut data = Vec::with_capacity(size);
+        for i in 0..size {
