@@ -97,3 +97,5 @@ impl Mul<Tensor> for Tensor {
         }
         Tensor {
             data,
+            shape: self.shape.clone(),
+        }
