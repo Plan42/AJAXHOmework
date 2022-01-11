@@ -96,3 +96,4 @@ impl Mul<Tensor> for Tensor {
             data.push(self.data[i] * other.data[i]);
         }
         Tensor {
+            data,
