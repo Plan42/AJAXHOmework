@@ -101,3 +101,6 @@ impl Mul<Tensor> for Tensor {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
