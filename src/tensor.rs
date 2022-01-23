@@ -106,3 +106,4 @@ impl Mul<Tensor> for Tensor {
 mod tests {
 
     #[test]
+    fn test_tensor() {
