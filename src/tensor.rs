@@ -107,3 +107,5 @@ mod tests {
 
     #[test]
     fn test_tensor() {
+        use super::Tensor;
+        let mut t = Tensor::from_shape(vec![2, 3]);
