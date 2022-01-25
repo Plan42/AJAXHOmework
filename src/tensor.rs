@@ -114,3 +114,5 @@ mod tests {
         assert_eq!(t.shape(), &vec![2, 3]);
         t.reshape(vec![3, 2]);
         assert_eq!(t.size(), 6);
+        assert_eq!(t.rank(), 2);
+        assert_eq!(t.shape(), &vec![3, 2]);
