@@ -117,3 +117,7 @@ mod tests {
         assert_eq!(t.rank(), 2);
         assert_eq!(t.shape(), &vec![3, 2]);
     }
+
+    #[test]
+    fn test_add() {
+        use super::Tensor;
