@@ -126,3 +126,8 @@ mod tests {
         let t3 = t1 + t2;
         assert_eq!(t3.data, vec![6.0, 8.0, 10.0, 12.0]);
         assert_eq!(t3.shape, vec![2, 2]);
+    }
+
+    #[test]
+    fn test_mul() {
+        use super::Tensor;
