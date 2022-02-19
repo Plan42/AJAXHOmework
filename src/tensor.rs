@@ -123,3 +123,6 @@ mod tests {
         use super::Tensor;
         let t1 = Tensor::new(vec![1.0, 2.0, 3.0, 4.0], vec![2, 2]);
         let t2 = Tensor::new(vec![5.0, 6.0, 7.0, 8.0], vec![2, 2]);
+        let t3 = t1 + t2;
+        assert_eq!(t3.data, vec![6.0, 8.0, 10.0, 12.0]);
+        assert_eq!(t3.shape, vec![2, 2]);
