@@ -1,1 +1,1 @@
-pub fn set_p
+pub fn set_pani
