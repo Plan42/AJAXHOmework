@@ -1,1 +1,1 @@
-pub fn set_pani
+pub fn set_panic
