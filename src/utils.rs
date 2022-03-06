@@ -1,1 +1,1 @@
-pub fn set_panic
+pub fn set_panic_h
