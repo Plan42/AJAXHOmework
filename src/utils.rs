@@ -1,2 +1,2 @@
 pub fn set_panic_hook() {
-    // When the `consol
+    // When the `console_
