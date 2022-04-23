@@ -1,2 +1,2 @@
 pub fn set_panic_hook() {
-    // When the `console_error_panic_hook` fe
+    // When the `console_error_panic_hook` fea
