@@ -3,4 +3,4 @@ pub fn set_panic_hook() {
     // `set_panic_hook` function at least once during initialization, and then
     // we will get better error messages if our code ever panics.
     //
-    /
+    //
