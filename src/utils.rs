@@ -4,4 +4,4 @@ pub fn set_panic_hook() {
     // we will get better error messages if our code ever panics.
     //
     // For more details see
-    // https://github.com/rustwasm/console_erro
+    // https://github.com/rustwasm/console_error_pa
